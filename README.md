@@ -4,9 +4,15 @@ A terminal-native code editor with Sublime Text ergonomics, VS Code configuratio
 
 ![Ultra Editor](https://raw.githubusercontent.com/zorz/ultra/main/screenshots/ultra-main-ux.png)
 
-## Download
+## Install
 
-Download the latest release for your platform from the [Releases](https://github.com/zorz/ultra-releases/releases) page.
+```bash
+curl -fsSL https://raw.githubusercontent.com/zorz/ultra-releases/main/install.sh | bash
+```
+
+Or download manually from the [Releases](https://github.com/zorz/ultra-releases/releases) page.
+
+## Manual Download
 
 | Platform | Architecture | File |
 |----------|--------------|------|
@@ -15,9 +21,7 @@ Download the latest release for your platform from the [Releases](https://github
 | Linux | x86_64 | `ultra-linux-x64.tar.gz` |
 | Linux | ARM64 | `ultra-linux-arm64.tar.gz` |
 
-## Installation
-
-### Quick install scripts
+### Platform-specific one-liners
 
 **macOS (Apple Silicon):**
 ```bash
